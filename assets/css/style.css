@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@media (min-width: 1200px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1380px;
+    }
+}
+
+:root {
+    --red-color: #DF6951;
+    --blue-color: #181E4B;
+    --yellow-color: #F1A501;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Volkhov", serif;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.Hero_Section {
+    background-image: url(../images/Decore.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.mynav_links li {
+    padding: 0 20px;
+}
+
+.mynav_links li a {
+    color: #212832;
+    font-family: "Poppins", sans-serif;
+}
+
+form {
+    gap: 40px;
+    padding-left: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+form select {
+    background: transparent;
+    border: none;
+    color: #212832;
+
+}
+
+.mylogo img {
+    width: 90px;
+}
+
+.img_div {
+    width: 100%;
+}
+.img_div img {
+    width: 40vw;
+    height: 680px;
+}
+
+
+.content_Div h4 {
+    color: var(--red-color);
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.content_Div h1 {
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 66px;
+}
+
+.content_Div p {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    color: #5E6282;
+}
+.Decore {
+    position: relative;
+}
+
+.Decore img{
+    bottom: 8px;
+    z-index: -1;
+    width: 300px;
+    position: absolute;
+}
