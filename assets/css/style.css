@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 :root {
-    --red-color: #DF6951;
-    --blue-color: #181E4B;
-    --yellow-color: #F1A501;
+    --red-color: #df6951;
+    --blue-color: #181e4b;
+    --yellow-color: #f1a501;
 }
 
 * {
@@ -22,11 +22,11 @@ body {
     background-image: url(../images/Decore.png);
     background-repeat: no-repeat;
     background-position: top right;
-    height: 100vh;
     width: 100%;
+    background-size: 600px;
     position: relative;
     z-index: 1;
-
+    margin-bottom: 80px;
 }
 
 .mynav_links li {
@@ -48,39 +48,11 @@ form select {
     background: transparent;
     border: none;
     color: #212832;
-
 }
 
 .mylogo img {
     width: 90px;
 }
-
-.img_div {
-    width: 100%;
-    position: relative;
-}
-
-.img_div img {
-    width: 45vw;
-    height: 90vh;
-}
-
-
-.right_plane>img {
-    position: absolute;
-    width: 100px;
-    top: -32%;
-    left: 130px;
-}
-
-.left_plane>img {
-    position: absolute;
-    width: 100px;
-    top: -26%;
-    right: -12%;
-}
-
-
 
 .content_Div h4 {
     color: var(--red-color);
@@ -88,7 +60,6 @@ form select {
     font-weight: 600;
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
-
 }
 
 .content_Div h1 {
@@ -100,7 +71,7 @@ form select {
 .content_Div p {
     font-family: "Poppins", sans-serif;
     font-size: 14px;
-    color: #5E6282;
+    color: #5e6282;
 }
 
 .Decore {
@@ -137,5 +108,58 @@ form select {
     font-family: "Poppins", sans-serif;
     font-size: 16px;
     font-weight: 400;
-    color: #5E6282;
+    color: #5e6282;
+}
+
+.img_div {
+    position: relative;
+}
+
+.img_div img {
+    width: 100%;
+}
+
+.right_plane>img {
+    position: absolute;
+    width: 14%;
+    top: 60px;
+    left: 140px;
+}
+
+.left_plane>img {
+    position: absolute;
+    width: 14%;
+    top: 100px;
+    right: 0;
+}
+
+.card {
+    width: 100%;
+    text-align: center;
+    padding: 40px 0px;
+    border-radius: 36px;
+}
+
+.card img {
+    padding-right: 20px;
+    background-image: url(../images/card\ light.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 38px;
+    width: 76px;
+}
+
+.card-body {
+    padding: 0 !important;
+}
+
+.card-body h5 {
+    padding: 0 !important;
+    font-size: 18px;
+}
+
+.card-body p {
+    font-size: 14px;
+    padding: 0 !important;
+
 }
