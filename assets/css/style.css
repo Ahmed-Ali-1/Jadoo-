@@ -116,6 +116,43 @@ form select {
     color: #5e6282;
 }
 
+@media (max-width: 556px) {
+
+    .back_fade {
+
+        background-size: 500px;
+
+    }
+
+    .content_Div h4 {
+
+        font-size: 14px;
+        font-weight: 500;
+
+    }
+
+    .content_Div h1 {
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 50px;
+    }
+
+    .content_Div p {
+
+        font-size: 12px;
+
+    }
+
+    .Decore img {
+        bottom: 8px;
+        width: 120%;
+        left: -10px;
+
+    }
+
+}
+
+
 .img_div {
     position: relative;
 }
